@@ -1,5 +1,10 @@
 package com.assignment.project.Entity;
 
+import jakarta.persistence.*;
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Set;
+
 @Entity
 @Table(name = "employees")
 public class Employee {
